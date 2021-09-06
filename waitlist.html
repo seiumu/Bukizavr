@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Букизавр</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.svg">
+</head>
+
+<body>
+
+  <div class="wrapper">
+        <div class="nav-container">
+        <nav>
+            <div class="logo">
+            <img class="bukizavr" src="images/bukizavr.svg"/>
+            </div>
+            
+            <ul class="nav-items">
+            <li class="nav-item">
+                <a href="index.html">О школе</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="lessons.html">О занятиях</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="pricing.html">Цены</a>
+            </li>
+
+            <li class="nav-btn-item-red">
+                <a class="nav-btn-red" href="waitlist.html">Записаться</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="teachers.html">Для учителей</a>
+            </li>
+
+            <li class="nav-btn-item-green">
+                <a class="nav-btn-green" href="login.html">Вход</a>
+            </li>
+            </ul>
+        </nav>
+        </div>  
+
+
+<div class="studentregister-container">
+    <div class="buki-image">
+        <img src="images/buki.svg"></img>
+    </div>
+    <div class="studentregister-content">
+        <h1 style="text-align:center; color:#D7576E;">Заявка</h1><br>
+        <p style="text-align:center; font-family: Ubuntu;">
+            Оставьте ваши контактные данные и мы <br>
+            свяжемся с Вами для оценки уровня<br>
+            подготовки вашего ребенка и определения<br>
+            его в соответсвующую группу.</p>
+    </div>
+
+    <div class="form">
+    
+        <div class="form-group">
+            <label class="label" for="city-country">Город и страна проживания<span style="color:#D7576E">*</span></label>
+            <input class="input" type="text" id="city-country" placeholder="">
+        </div>
+
+        <div class="form-group">
+            <label class="label" for="age-group">Возраст вашего ребенка<span style="color:#D7576E">*</span></label>
+            <input class="input" type="text" id="age-group" placeholder="">
+        </div>
+
+        <div class="form-group">
+            <label class="label" for="plan">Выберите один из рассматриваемых образовательных планов<span style="color:#D7576E">*</span></label>
+            <select class="dropdown" name="plan" id="plan">
+                <option value=”НеВыбран”></option>
+                <option value=”Базовый”>Базовый</option>
+                <option value=”Расширенный”>Расширенный</option>
+                <option value=”Ударный”>Ударный</option>
+                <option value=”Ураган”>Ураган</option>
+                <option value=”Особый”>Особые пожелания</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="label" for="name">Укажите ваше имя<span style="color:#D7576E">*</span></label>
+            <input class="input" type="text" id="name" placeholder="">
+        </div>
+
+        <div class="form-group">
+            <label class="label" for="email">Электронный адрес по которому с вами можно связаться<span style="color:#D7576E">*</span></label>
+            <input class="input" type="text" id="email" placeholder="">
+        </div>
+
+        <div class="form-group">
+            <label class="label" for="cell">Номер телефона по которому с вами можно связаться</label>
+            <input class="input" type="text" id="cell" placeholder="">
+        </div>
+        
+        <button class="submit-button" type="submit-button">Записаться</button>
+        
+        <p style="font-family:Ubuntu; text-align:center;">
+            <br>
+            Если в вашей семье несколько детей, <br>
+            Заполните форму для каждого из них в отдельности.</p>
+
+    </div>
+
+</div>
+
+<div class="footer-container">
+    <div class="footer-logo">
+    <a href="index.html"><img src="images/footer-logo.svg"></img></a>
+    </div>
+</div>
+
+<script src="main.js"></script>
+
+</body>
